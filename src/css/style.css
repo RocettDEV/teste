@@ -1,0 +1,78 @@
+body,
+html {
+    background-color: black;
+}
+
+main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    text-align: center;
+
+}
+
+.caixa {
+    background-color: rgb(62, 61, 61);
+    height: 70vh;
+    border-radius: 10px;
+}
+
+.descricao {
+    margin-top: 10vh;
+}
+
+.nome {
+    font-size: 13px;
+    color: rgb(255, 255, 255);
+    position: relative;
+    top: 50px;
+}
+
+.localidade {
+    font-size: 10px;
+    color: rgb(41, 181, 224);
+    position: relative;
+    top: 70px;
+}
+
+.bio{
+    padding: 20px;
+    font-size: 12px;
+    position: relative;
+    top: 70px;
+    color: white;
+}
+
+.midias {
+    font-size: 13px;
+    position: relative;
+    top: 50px;
+    color: white;
+
+}
+
+.sociais {
+    background-color: black;
+    border: 5px solid rgb(62, 61, 61);
+    border-radius: 10px;
+    padding: 8px;
+    position: relative;
+    top: 10px;
+    cursor: pointer;
+    
+}
+
+a {
+    color: white;
+}
+
+img {
+    width: 25%;
+    height: 15%;
+    border-radius: 50%;
+    object-fit: cover;
+    position: relative;
+    top: -310px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+}
